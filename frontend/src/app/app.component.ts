@@ -7,7 +7,6 @@ import { FormulaireComponent } from './components/formulaire/formulaire.componen
 import { RecapitulatifComponent } from './components/recapitulatif/recapitulatif.component';
 import { TetiereComponent } from './components/tetiere/tetiere.component';
 import { CarteModule } from './modules/carte/carte.module';
-import { ListeProductComponent } from './components/liste-product/liste-product.component';
 
 @Component({
   selector: 'app-root',

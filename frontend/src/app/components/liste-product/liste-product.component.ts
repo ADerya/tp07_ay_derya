@@ -23,7 +23,6 @@ export class ListeProductComponent implements OnInit {
 
   constructor(private apiService: ApiService, private store: Store) {
     this.products$ = this.apiService.getProduits();
-    //this.categories$ = this.apiService.getCategories();
   }
   ngOnInit(): void {
     this.products$ = this.searchEvent.pipe(

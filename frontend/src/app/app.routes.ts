@@ -10,11 +10,6 @@ export const routes: Routes = [
     { path: 'connexion', component: LoginComponent},
     { path: 'catalogue', component: ListeProductComponent},
 
-    // {
-    //     path: 'catalogue',
-    //     loadComponent: () =>
-    //         import('./components/liste-product/liste-product.component').then((catalogue) => catalogue.ListeProductComponent),
-    // },
     {
         path: 'panier',
         loadComponent: () =>
